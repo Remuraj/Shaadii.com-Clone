@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrimony Site</title>
+
+
+     <Style>
+        h2{
+            margin-left: 20px;
+            color:gray(62, 246, 37);
+        }
+
+        .menu{
+            margin-top: -40px ;
+            display: flex;
+            justify-content: flex-end;
+            gap: 40px;
+            color: maroon;
+            margin-right: 100px;
+            font-size: large;
+        }
+
+        h1{
+            font-family:font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+            margin-top: -25px;
+        }
+
+        form{
+            width: 800px;
+            border: 1px black;
+            padding: 20px;
+            background-color: rgba(128,0,0,0.8);
+            border-radius: 20px;
+            color: beige;
+        }
+
+        .form-row{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        .form-row label{
+            width: 150px;
+            color: beige;
+
+        }
+
+        .form-row input,
+        .form-row select {
+            flex:auto;
+            margin-right: 20px;
+            padding: 5px;
+        }
+
+        input[type="button"]{
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+
+
+    </Style>
+</head>
+<body style="background-image: url(./bg.png); background-size: cover;">
+   
+
+
+    <h2>Welcome to</h2>
+    <h1 style="margin-left: 20px; color: maroon;">Shadii.. Connection</h1>
+
+    <div class="menu">
+    <h3>Home</h3>
+    <h3>About Us</h3>
+    <h3>Contact Us</h3>
+    <h3>Sign Up</h3>
+    </div>
+
+    <h2 style="color: maroon; text-align: center; font-size: xx-large;">Trusted Matrimony & <br> Matchmaking Service </h2>
+    
+    <center>
+        <form>
+            <h1 style="color: goldenrod; text-align: center; padding-top: 30px;">PERSONAL DETAILS</h1>
+
+            <div class="form-row">
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your Name"/>
+            <label>Mobile Number:</label>
+            <input type="number" placeholder="Enter Mobile Number"/>
+            </div>
+
+            <div class="form-row"> 
+            <label>Gender:</label>
+            <div>
+            <input type="radio" name="Gender"/>Male</input>
+            <input type="radio" name="Gender"/>Female</input>
+            </div>
+            <label>Birth date:</label>
+            <input type="date" placeholder="Enter your Birth Date"/>
+            </div>
+
+            <div class="form-row">
+            <label>Birth Time:</label>
+            <input type="time" placeholder="Enter your Birth Time"/>
+            <label>Caste:</label>
+            <input type="text" placeholder="Enter your Caste"/>
+            </div>
+
+            <div class="form-row">
+            <label>Religion:</label>
+            <input type="text" placeholder="Enter your Religion"/>
+            <label>Height:</label>
+            <input type="text" placeholder="Enter your Height"/>
+            </div>
+
+            <div class="form-row">
+            <label>Weight:</label>
+            <input type="text" placeholder="Enter your Weight"/>
+            <label>Blood Group:</label>
+            <input type="text" placeholder="Enter your blood Group"/>
+            </div>
+
+            <div class="form-row">
+            <label>Complexion:</label>
+            <input type="text" placeholder="Enter your Complexion"/>
+            <label>Education:</label>
+            <input type="text" placeholder="Enter your Education Details"/>
+            </div>
+
+            <div class="form-row">
+            <label>Occupation:</label>
+            <input type="text" placeholder="Enter your Occupation Details"/>
+            </div>
+
+            <h1 style="color: goldenrod; text-align: center; padding-top: 30px;">PARTNER PREFERENCES</h1>
+
+            <div class="form-row">
+            <label>I'm looking for a:</label>
+            <select name="" id="">
+                <option value="Women">Women</option>
+                <option value="Men">Men</option>
+            </select>
+            <label for="">Aged</label>
+            <select name="" id="">
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+            </select>
+            to
+            <select name="" id="">
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+            </select>
+            </div>
+
+            <div class="form-row">
+            <label for="">Of religion</label>
+            <input type="text" placeholder="Enter your preffered religion"/>
+            <label for="">and mother tongue</label>
+            <input type="text" name="" id=""placeholder="Mother Tongue">
+            </div>
+
+            <div style="text-align: center; margin-top: 20px;">
+            <input type="button" value="LET'S START" >
+            </div>
+            </form>    
+    </center>
+
+</body>
+</html>
